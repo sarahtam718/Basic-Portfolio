@@ -11,25 +11,33 @@
 </head>
 
 <header>
-    Sarah Tam
-    <!-- links to other pages on the website -->
-     <nav>
-         <a href="index.html">About</a>
-         <a href="portfolio.html">Portfolio</a>
-         <a href="portfolio.html">Contact</a>
-     </nav>
+    <div class="container">
+      <!-- float this tab thingy -->
+      <div class="meTab">
+        <h1>Sarah Tam</h1>
+     </div>
+    <!-- nav bar with links to other pages on the website -->
+     <ul>
+        <li><a id="lastChild" href="portfolio.html">Contact</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="index.html">About</a></li>     
+      </ul>
+  </div>
 </header>
+
 <body>
-  <h1>Contact</h1>
-  <form>
-      <!-- add hidden state to css -->
-    <div>Name</div>
-    <input type="text" value="Jane Doe">  
-    <div>Email</div>
-    <input type="text" value="janedoe@gmail.com">
-    <div>Message</div>
-    <input type="text">
-    <button>Submit</button>
+  <div class="bigContainer">
+    <h1>Contact</h1>
+  </div>
+    <form>
+      <div>Name</div>
+      <input class="light" type="text" value="Jane Doe">  
+      <div>Email</div>
+      <input class="light" type="text" value="janedoe@gmail.com">
+      <div>Message</div>
+      <input type="text">
+      <br>
+  <button>Submit</button>
   </form>
 </body>
 </html>

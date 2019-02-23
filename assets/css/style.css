@@ -1,0 +1,85 @@
+/* gray bar across the top */
+.container {
+    background-color: white;
+    height: 70px;
+    position: sticky;
+    position: relative;
+    border-bottom: 2px solid lightgray;
+    width: 100%;
+}
+
+/* The Sarah Tam Blue Tab on nav bar */
+.meTab {
+    width: 170px;
+    height: 56px;
+    color: white;
+    font-size: 25px;
+    background-color: teal;
+    float: left;
+    margin-left: 220px;
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 14px;
+}
+
+/* nav bar links */
+li {
+    float: right;
+}
+
+li a {
+    padding-bottom: 1px;
+    padding-right: 12px;
+    background-color: white;
+    border-right: 1px solid #bbb;
+    margin: 10px;
+    border-top: 3px solid white;
+    text-decoration: none;
+    color: lightgrey;
+}
+
+#lastChild {
+    border-right: lightgrey;
+}
+
+ul {
+    position: fixed;
+    top: 25px;
+    width: 100%;
+    right: 180px;
+}
+
+/* set background */
+body {
+    background-image: url("../images/backgroundimage2.jpg");
+    font-family: 'Arial', 'Helvetica Neue', 'sans-serif';
+}
+
+/* fonts */
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+/* sticky footer */
+footer {
+    border-top: 8px solid #4aaaa5;
+}
+
+    /* contact page css */
+.light {
+    color: lightgray;
+}
+
+.bigContainer {
+    width: 960px;
+    height: 70px;
+    border: 1px solid lightgray;
+    background-color: white;
+    position: relative;
+    margin-top: 20px;
+    float: left;
+    position: relative;
+    left: 220px;
+}
+
