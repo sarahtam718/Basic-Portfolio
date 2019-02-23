@@ -17,8 +17,9 @@
         <h1>Sarah Tam</h1>
      </div>
     <!-- nav bar with links to other pages on the website -->
-     <ul>
-        <li><a id="lastChild" href="portfolio.html">Contact</a></li>
+     <!--had to reverse the order due to floating  -->
+    <ul>
+        <li><a id="lastChild" href="contact.html">Contact</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
         <li><a href="index.html">About</a></li>     
       </ul>
@@ -26,20 +27,24 @@
 </header>
 
 <body>
+  <!-- making the big floating box -->
   <div class="bigContainer">
+    <!-- title for box -->
     <h1 class="tealheading">Contact</h1>
     <form>
         <div class="info">Name
           <br>
-          <input class="light" type="text" value="Jane Doe">  
+          <!-- placeholder gets the value to disappear when the person starts typing -->
+          <input class="light" type="text" placeholder="Jane Doe">  
         </div>
         <div class="info">Email
           <br>
-          <input class="light" type="text" value="janedoe@gmail.com">
+          <input class="light" type="text" placeholder="janedoe@gmail.com">
       </div>
         <div class="info">Message
           <br>
-          <input class="light" type="text" style="height:170px">
+          <textarea class="light" rows="10" cols="50"></textarea>
+          </div>
       </div>
         <br>
     <button>Submit</button>
